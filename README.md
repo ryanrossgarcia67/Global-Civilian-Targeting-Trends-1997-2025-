@@ -2,6 +2,8 @@
 
 Interactive Tableau dashboard analyzing global civilian targeting events over time using aggregated ACLED conflict data.
 
+![Dashboard Preview](images/dashboard_preview.png)
+
 ---
 
 ## Dashboard Overview
@@ -19,8 +21,8 @@ The visualization combines:
 ## Key Insights
 
 - Civilian targeting events increase significantly after the early 2010s.
-- Several countries show persistent long-term concentrations of violence against civilians.
-- Conflict activity becomes more geographically distributed in later years of the dataset.
+- Several countries demonstrate persistent concentrations of civilian targeting activity across multiple decades.
+- Later years in the dataset show broader geographic distribution of civilian targeting events.
 - Temporal analysis highlights periods of escalation associated with major regional conflicts and insurgencies.
 
 ---
@@ -37,7 +39,7 @@ The visualization combines:
 
 Data sourced from the Armed Conflict Location & Event Data Project (ACLED).
 
-Source:
+Source:  
 https://acleddata.com/aggregated/number-events-targeting-civilians-country-year
 
 ACLED provides real-time and historical data on political violence, protest activity, and conflict events worldwide.
@@ -52,6 +54,19 @@ https://public.tableau.com/app/profile/ryan.garcia4428/viz/Civiliantargeteventsb
 
 ---
 
+## Methodology
+
+The dashboard uses aggregated ACLED civilian targeting event data grouped by country and year.
+
+Data preparation included:
+- Standardization of yearly event totals
+- Geographic mapping preparation
+- Tableau relationship modeling
+- Interactive filtering configuration
+- Dashboard layout and visualization design
+
+---
+
 ## Project Structure
 
 ```text
@@ -61,6 +76,7 @@ https://public.tableau.com/app/profile/ryan.garcia4428/viz/Civiliantargeteventsb
 ├── data/
 ├── dashboard/
 ├── images/
+│   └── dashboard_preview.png
 └── docs/
 ```
 
@@ -68,5 +84,6 @@ https://public.tableau.com/app/profile/ryan.garcia4428/viz/Civiliantargeteventsb
 
 ## Disclaimer
 
-This project is intended for educational and analytical purposes only.  
+This project is intended for educational and analytical purposes only.
+
 All conflict data attribution belongs to ACLED.
